@@ -1,16 +1,9 @@
-import { useEffect, useState } from "react";
-import Modal from 'react-modal';
-
-
-export function Card(props){
-
+export function Card(props){ 
   return(
     <>
-      <div className="card" onClick={props.handleOpenCharacterModal}>
+      <div className="card" onClick={()=>props.handleOpenCharacterModal(props.indexCharacter)}>
         <img className="card__img" src={props.characterProps.img}/>
       </div>
-
     </>
-    
   )
 }

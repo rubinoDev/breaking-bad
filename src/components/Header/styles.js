@@ -5,6 +5,8 @@ export const HeaderContainer = styled.header`
     justify-content: center;
     align-items: center;
 
+    background-color: #369457;
+
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
 
     padding-block: 2rem;
@@ -35,7 +37,7 @@ export const HeaderContainer = styled.header`
     display: flex;
     align-items: center;
   }
-
+  
   .toggler p {
     font-size: 1rem;
     font-weight: 600;
@@ -78,5 +80,11 @@ export const HeaderContainer = styled.header`
 
     .toggler--dark {
     color: #D5D4D8;
+  }
+
+  @media(max-width:850px) {
+    .toggler{
+      right:5rem;
+    }
   }
 `

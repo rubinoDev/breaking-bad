@@ -432,12 +432,12 @@ debug@^4.1.0:
   dependencies:
     ms "2.1.2"
 
-easy-react-animation@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/easy-react-animation/-/easy-react-animation-1.0.0.tgz#84fe50e7463a7c5157538eaab815c4df733195d2"
-  integrity sha512-KeX9q1Q+FqwPwO6vn+7iJAq13XvJSS5NpHp0eapmxCG/Cg61qfmg4S1kBBjZXEYjUbU0R8ipSdvXMMmBLOsFig==
+easy-react-animation@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/easy-react-animation/-/easy-react-animation-1.0.4.tgz#1bf7fbec9bb61e7dc64def0e9aa1c8be1a212d0e"
+  integrity sha512-POn4PDWeri2rMSDJxyHgbka/MORzvlr7yHq6ScdImryDJNBPPzABMoQ5xfR6ZkVBT7dPl+S8WhkShQT+OwKF+w==
   dependencies:
-    prop-types "^15.8.1"
+    styled-components "^5.3.5"
 
 electron-to-chromium@^1.4.188:
   version "1.4.198"
@@ -714,7 +714,7 @@ postcss@^8.4.14:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
-prop-types@^15.7.2, prop-types@^15.8.1:
+prop-types@^15.7.2:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
