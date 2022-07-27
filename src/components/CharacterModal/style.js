@@ -2,7 +2,7 @@ import styled  from "styled-components";
 
 export const ModalContainer = styled.div`
   .modal__img{
-    border-radius: 3rem 3rem .5rem .5rem;
+    border-radius: 3rem;
     width:35rem;
     height:40rem;
   }
